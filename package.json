@@ -1,0 +1,20 @@
+{
+  "name": "gielcobben.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Giel Cobben <g.cobben@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "now-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

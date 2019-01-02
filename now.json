@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "gielcobben",
+  "public": false,
+  "alias": ["gielcobben.com", "www.gielcobben.com", "giel.one", "www.giel.one"],
+  "builds": [
+    { "src": "github/**/*.png", "use": "@now/static" },
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
+}
