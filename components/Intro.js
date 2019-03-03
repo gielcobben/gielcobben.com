@@ -1,17 +1,20 @@
 const Intro = () => (
   <section>
-    <h1>Giel.</h1>
     <p>
-      I’m Giel Cobben, a designer based in Amsterdam, the Netherlands. I create
-      interfaces, shape brands and build digital products.
+      Giel is focussing on design & development, partnering with brands like{" "}
+      <a href="https://mollie.com/">Mollie</a>,{" "}
+      <a href="https://framer.com/">Framer</a> and{" "}
+      <a href="https://wetransfer.com/">Wetransfer</a>. He cares deeply about
+      what he does and has become an expert in beautifully-designed software.
     </p>
+
     <p>
-      Over the last ten odd years I’ve had the pleasure of working with some
-      great people, working side by side to design and develop apps and improve
-      upon existing products. I mainly focus on designing clear, understandable
-      interfaces and creating a goal oriented user experience through iteration
-      and prototyping. I just love collaborating with passionate people and
-      companies to make great apps.
+      If you have a project that you think I could help you with, please drop me
+      a line.
+    </p>
+
+    <p>
+      <a href="mailto:g.cobben@gmail.com">g.cobben[at]gmail.com</a>
     </p>
   </section>
 );

@@ -80,9 +80,9 @@ class Index extends React.Component {
         by creating valuable, free and easy-to-use software."
           data={shots}
         /> */}
-        <Work title="Open source software" data={opensource} stars={stars} />
-        <List title="Awards" data={awards} />
-        <List title="Experience" data={experience} />
+        {/* <Work title="Open source software" data={opensource} stars={stars} /> */}
+        {/* <List title="Awards" data={awards} /> */}
+        {/* <List title="Experience" data={experience} /> */}
         <List title="Contact" data={social} />
       </Layout>
     );

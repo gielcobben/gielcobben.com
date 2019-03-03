@@ -1,20 +1,16 @@
 const Social = [
   {
-    title: "Email",
-    url: "mailto:g.cobben@gmail.com",
+    title: "Dribbble",
+    url: "https://dribbble.com/giel"
   },
   {
     title: "Twitter",
-    url: "https://twitter.com/gielcobben",
-  },
-  {
-    title: "Dribbble",
-    url: "https://dribbble.com/giel",
+    url: "https://twitter.com/gielcobben"
   },
   {
     title: "Github",
-    url: "https://github.com/gielcobben",
-  },
+    url: "https://github.com/gielcobben"
+  }
 ];
 
 export default Social;

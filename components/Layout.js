@@ -5,7 +5,10 @@ const Layout = ({ children, track }) => (
   <main>
     <Head>
       <title>Giel Cobben</title>
-      <meta name="description" content="I’m Giel Cobben, a designer based in Amsterdam, the Netherlands. I createinterfaces, shape brands and build digital products." />
+      <meta
+        name="description"
+        content="I’m Giel Cobben, a designer based in Amsterdam, the Netherlands. I createinterfaces, shape brands and build digital products."
+      />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta
@@ -205,22 +208,24 @@ const Layout = ({ children, track }) => (
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
-        line-height: 1.6;
-        font-size: 16px;
+        line-height: 1.4;
+        font-size: 17px;
+        font-weight: bold;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
         background: #000;
-        color: #cccccc;
+        color: #fff;
+        padding: 5vw;
       }
 
       a {
-        color: inherit;
+        color: #888;
         text-decoration: none;
         transition: opacity 0.2s ease;
       }
 
       a:hover {
-        opacity: 0.4;
+        color: #0077ff;
       }
 
       ol,
@@ -229,36 +234,22 @@ const Layout = ({ children, track }) => (
       }
 
       p {
-        max-width: 600px;
-        margin: 16px 0;
+        max-width: 360px;
+        font-weight: bold;
+        margin: 32px 0;
       }
 
       h1 {
-        font-size: 28px;
+        font-size: 17px;
         font-weight: bold;
         color: #fff;
       }
 
       h2 {
-        font-size: 21px;
-        font-weight: bold;
+        font-size: 17px;
+        font-weight: 500;
         color: #fff;
-      }
-
-      h3 {
-        font-size: 16px;
-        font-weight: bold;
-        color: #fff;
-      }
-
-      section {
-        padding: 100px;
-      }
-
-      @media (max-width: 850px) {
-        section {
-          padding: 50px;
-        }
+        margin: 20px 0;
       }
     `}</style>
   </main>

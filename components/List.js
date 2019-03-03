@@ -2,8 +2,11 @@ import ListItem from "../components/ListItem";
 
 const List = ({ title, data }) => (
   <section>
-    <h2>{title}</h2>
-    <ul>{data.map((entry, index) => <ListItem key={index} data={entry} />)}</ul>
+    <ul>
+      {data.map((entry, index) => (
+        <ListItem key={index} data={entry} />
+      ))}
+    </ul>
 
     <style jsx>{`
       h2 {
